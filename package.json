@@ -1,0 +1,24 @@
+{
+  "name": "2403311716",
+  "version": "1.0.0",
+  "description": "Caronwin Lim 2403311716",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carronlim555-debug/2403311716.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/carronlim555-debug/2403311716/issues"
+  },
+  "homepage": "https://github.com/carronlim555-debug/2403311716#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
