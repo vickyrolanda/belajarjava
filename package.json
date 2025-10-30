@@ -1,0 +1,24 @@
+{
+  "name": "2403311660",
+  "version": "1.0.0",
+  "description": "ShaktiVelen2403311660",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shaktiiii/2403311660.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shaktiiii/2403311660/issues"
+  },
+  "homepage": "https://github.com/Shaktiiii/2403311660#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
