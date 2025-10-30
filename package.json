@@ -1,0 +1,23 @@
+{
+  "name": "24033311798",
+  "version": "1.0.0",
+  "description": "Nama : Muhammad Rizieq\r NIM : 2403311798",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/riziieq/24033311798.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/riziieq/24033311798/issues"
+  },
+  "homepage": "https://github.com/riziieq/24033311798#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
