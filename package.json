@@ -1,0 +1,23 @@
+{
+  "name": "2403311702",
+  "version": "1.0.0",
+  "description": "Tugas Alfika Wulan Dewinta-2403311702-IFDSR",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wulanalfika25-pixel/2403311702.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wulanalfika25-pixel/2403311702/issues"
+  },
+  "homepage": "https://github.com/wulanalfika25-pixel/2403311702#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
