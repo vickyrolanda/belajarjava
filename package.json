@@ -1,0 +1,23 @@
+{
+  "name": "2403311964",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sukrisuriadisitumorang-pixel/2403311964.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sukrisuriadisitumorang-pixel/2403311964/issues"
+  },
+  "homepage": "https://github.com/sukrisuriadisitumorang-pixel/2403311964#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
