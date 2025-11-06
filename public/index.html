@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>vinzz Admin</title>
+  <!-- Semua styling taruh inline dan seadanya -->
+  <style>
+    body { font-family: Arial; background:#f2f2f2; margin:0; }
+    .box { max-width: 420px; margin: 20px auto; background:#fff; padding:12px; border:1px solid #ddd; }
+    input, button, textarea { width:100%; margin:6px 0; padding:8px; box-sizing: border-box; }
+    #afterLogin { display:none; border-top:1px dashed #aaa; margin-top:12px; padding-top:10px; }
+    .hint { font-size:12px; color:#444; background:#fafafa; padding:6px; border:1px dotted #bbb; }
+    .status { min-height:18px; font-size:13px; color:#333; margin-top:8px; }
+  </style>
+</head>
+<body>
+
+<div class="box">
+  <h3 style="margin:0 0 10px 0">Halaman Login</h3>
+  <!-- Inline handler onsubmit -->
+  <form id="loginForm" onsubmit="return doLogin(event)">
+    <label>Username</label>
+    <input id="username" type="text" autocomplete="off" placeholder="username">
+
+    <label>Password</label>
+    <input id="password" type="password" placeholder="password">
+
+    <button type="submit">Login</button>
+  </form>
+
+  <div class="hint">
+    <b>Demo:</b> username: <code>admin</code>, password: <code>admin123</code>
+  </div>
+
+  <div id="afterLogin">
+    <p>Login berhasil. Silakan kirim laporan di bawah ini:</p>
+    <textarea id="reportMsg" rows="4" placeholder="ketik laporan kamu disini..."></textarea>
+    <!-- Inline handler onclick-->
+    <button id="sendReport" onclick="kirimLaporan()">Kirim Laporan</button>
+    <button id="logoutBtn" onclick="keluar()">Logout</button>
+  </div>
+
+  <div id="status" class="status"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
