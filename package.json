@@ -1,0 +1,15 @@
+{
+  "name": "pra-uts-if-d-2403311964-sukri-situmorang1",
+  "version": "1.0.0",
+  "description": "Sistem login dengan callback, promise, dan modul",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "author": "Sukri Situmorang",
+  "license": "ISC"
+}
