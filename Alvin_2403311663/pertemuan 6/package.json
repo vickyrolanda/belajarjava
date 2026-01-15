@@ -1,0 +1,23 @@
+{
+  "name": "2403311663",
+  "version": "1.0.0",
+  "description": "Alvin\r 2403311663",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IceDev2/2403311663.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IceDev2/2403311663/issues"
+  },
+  "homepage": "https://github.com/IceDev2/2403311663#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
