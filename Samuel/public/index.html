@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Callback Promise Module SAMUEL BAGO</title>
+</head>
+<body>
+    <div class="login-container">
+        <h2>Sistem Login Admin</h2>
+        <p>Masukkan username untuk memulai proses ya</p>
+        
+        <div class="form-group">
+            <input type="text" id="usernameInput">
+            <button onclick="jalankanProses()">Proses Login di tunggu yaa</button>
+        </div>
+
+        <div id="hasilLaporan" class="hidden">
+            <h3>Laporan Sistem:</h3>
+            <div id="loadingBar" class="hidden">Sedang memproses...</div>
+            <pre id="outputTeks"></pre>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
