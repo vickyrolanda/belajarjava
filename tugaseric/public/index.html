@@ -1,0 +1,43 @@
+<html lang="id">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Eric Admin</title>
+</head>
+<body>
+<div class="container">
+<h1>Halaman Login</h1>
+<form id="loginForm">
+<label>Username</label>
+<input type="text" id="username" autocomplete="off" />
+<label>Password</label>
+<input type="password" id="password" />
+<button type="submit">Login</button>
+</form>
+
+
+<div id="afterLogin" style="display:none; margin-top:12px;">
+<p id="status"></p>
+<div style="margin-bottom:8px;">
+<label>Pesan laporan:</label>
+<textarea id="reportMsg"></textarea>
+</div>
+<button id="sendReport">Kirim Laporan</button>
+<button id="logoutBtn" style="margin-left:8px;">Logout</button>
+</div>
+</div>
+<div id="message" role="status" aria-live="polite"></div>
+
+      <details class="hint">
+        <summary>Hint kredensial demo</summary>
+        <p>
+          Username: <code>admin</code><br />
+          Password: <code>admin123</code>
+        </p>
+      </details>
+    </div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
